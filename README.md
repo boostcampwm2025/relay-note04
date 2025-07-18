@@ -1,4 +1,4 @@
-# relay-note04
+# relay-note04 - AI 비교 실험 : "나에게 맞는 AI는 누구인가?"
 
 ## 프로젝트 목적
 
