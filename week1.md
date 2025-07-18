@@ -137,7 +137,7 @@
 - <https://creatoreconomy.so/p/an-opinionated-guide-on-which-ai-model-2025>
 
 
-## 퀘스트
+## ❗퀘스트 
 
 ### Quest 1. “기초 개념 설명력 비교하기”
 
