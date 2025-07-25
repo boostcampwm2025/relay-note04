@@ -33,7 +33,8 @@
 
 ### 📝 출력 예시
 
-<img width="1024" height="1024" alt="Image20250725144153" src="[https://github-production-user-asset-6210df.s3.amazonaws.com/74086324/470646242-3ebbdf98-851b-4587-8e45-78d6cdf341d5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250725%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250725T054216Z&X-Amz-Expires=300&X-Amz-Signature=7585e61f99f5e4baf9034c338b120a9ff3c07e112513f02227505217892ac6b6&X-Amz-SignedHeaders=host" />
+<img width="1024" height="1024" alt="Image20250725144153" src="https://github.com/user-attachments/assets/d9b778be-7d3d-4eb9-9d90-a8b28604e82d" />
+
 
 ## Ⓜ️ 퀘스트 2: AI 고민 상담
 
