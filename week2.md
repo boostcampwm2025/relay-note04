@@ -33,8 +33,7 @@
 
 ### 📝 출력 예시
 
-<img width="1024" height="1024" alt="Image20250725144153" src="https://github.com/user-attachments/assets/d9b778be-7d3d-4eb9-9d90-a8b28604e82d" />
-
+<img width="512" height="512" alt="Image20250725144153" src="https://github.com/user-attachments/assets/d9b778be-7d3d-4eb9-9d90-a8b28604e82d" />
 
 ## Ⓜ️ 퀘스트 2: AI 고민 상담
 
