@@ -257,11 +257,106 @@ WEEK2 퀘스트 선택 및 수행 결과
 
 ### J064 김재민 🤿
 
-#### 수락한 퀘스트 -> 퀘스트 3: AI 활용 체크포인트 생성
+#### 수락한 퀘스트 -> 퀘스트 3: AI 활용 체크포인트 생성 (완료 ✅)
 
 <details>
 <summary>🚀수행한 퀘스트 펼쳐 보기/닫기</summary>
 <div markdown="1">
+
+Day12의 미션 달성을 위한 cs 체크리스트 작성을 도와달라고 한 결과입니다.
+
+1. javascript
+
+- 모듈 시스템 (require, module.exports)
+- 클래스 (class, constructor, extends)
+
+[ ] 비동기 프로그래밍의 이해:
+
+- 이벤트 루프(Event Loop)의 기본 동작 방식: Node.js가 단일 스레드에서 어떻게 비동기 작업을 처리하는지 (콜 스택, 이벤트 큐, 마이크로태스크 큐, 페이즈).
+- 관련 아티팩트: nodejs_event_loop_practice_2
+- 논 블로킹(Non-blocking) I/O: 메인 스레드가 작업을 기다리지 않고 다른 작업을 계속하는 개념.
+- 콜백(Callback): 비동기 작업이 완료된 후 실행될 함수.
+
+[ ] Promise의 이해와 활용:
+
+- Promise의 3가지 상태 (pending, fulfilled, rejected).
+- .then(), .catch()를 이용한 Promise 체이닝 및 에러 처리.
+- Promise.all(), Promise.race()를 이용한 병렬 비동기 작업 처리.
+- 관련 아티팩트: queue_scheduling_nodejs (Promise 역할 분담 섹션)
+
+[ ] async/await의 이해와 활용:
+
+- Promise 기반 코드를 동기 코드처럼 읽기 쉽게 만드는 문법적 설탕.
+- async 함수 선언 및 await 키워드 사용법.
+- try...catch를 이용한 async/await 에러 처리.
+- 관련 아티팩트: promise_to_async_await_conversion
+
+[ ] EventEmitter의 이해와 활용:
+
+- EventEmitter의 역할 (발행-구독 패턴).
+- on(), emit() 메서드를 이용한 이벤트 구독 및 발행.
+- 모듈 간 느슨한 결합을 위한 통신 수단으로서의 활용.
+- 관련 아티팩트: event_bus, queue_scheduling_nodejs (EventEmitter 역할 분담 섹션)
+
+2. 데이터 구조 및 설계 원칙
+
+[ ] 큐(Queue) 자료구조:
+
+- FIFO(First-In, First-Out) 원칙 이해.
+- enqueue (데이터 추가), dequeue (데이터 제거), isEmpty (비어있는지 확인) 등 기본 연산 이해.
+- 관련 아티팩트: queue_scheduling_nodejs (큐 구현 방식 섹션)
+- Producer ↔︎ Consumer 관계에서 큐의 역할 및 발생 가능한 문제점 (속도 불균형, 오버플로우/언더플로우)과 해결 방식.
+- 관련 아티팩트: producer_consumer_problem
+
+[ ] Map 객체:
+
+- 키-값 쌍을 저장하는 컬렉션으로, 객체보다 유연하게 키를 사용할 수 있다는 점 이해. (예: videoId를 키로 하여 영상 상태 관리)
+
+[ ] 객체 지향 프로그래밍 (OOP) 기본:
+
+- 클래스, 객체, 인스턴스 개념.
+- 캡슐화, 상속, 다형성 (간단한 수준).
+- 의존성 역전 원칙 (DIP): 추상화에 의존하고 구체적인 구현에 의존하지 않는다는 개념.
+- 관련 아티팩트: dependency_inversion_principle
+- 의존성 주입 (DI): 외부에서 필요한 의존성을 전달받는 방식.
+
+[ ] 함수형 프로그래밍 (FP) 기본 개념:
+
+- 순수 함수(Pure Functions): 동일 입력 -> 동일 출력, 부수 효과 없음.
+- 불변성(Immutability): 데이터 직접 변경 대신 새로운 사본 생성.
+- 고차 함수(Higher-Order Functions): 함수를 인자로 받거나 반환하는 함수 (map, filter, reduce 등).
+- 관련 아티팩트: functional_programming_js
+
+3. 테스트 및 디버깅
+
+[ ] 단위 테스트의 중요성:
+
+- 단위 테스트가 왜 필요한지, 어떤 이점을 주는지 이해.
+- 테스트하기 쉬운 코드의 특징.
+- 관련 아티팩트: testable_code_guide
+
+[ ] Jest 또는 Mocha/Chai 사용법:
+
+- 선택한 테스트 프레임워크의 설치 및 기본 사용법.
+- 테스트 스위트/테스트 케이스 작성 방법.
+- 어설션(Assertion) 사용법 (expect().toBe(), assert.equal() 등).
+- 모킹(Mocking)의 개념과 필요성: 외부 의존성을 가짜로 대체하는 이유.
+- jest.fn(), jest.mock(), jest.spyOn() 또는 Mocha의 sinon과 같은 라이브러리를 통한 모킹/스텁핑.
+- 관련 아티팩트: jest_mocking_guide
+- 시간 기반 비동기 함수(setTimeout)를 테스트하기 위한 시간 모킹 방법.
+
+[ ] 비동기 코드 디버깅 방법:
+
+- console.log를 이용한 흐름 추적.
+- Node.js 디버거 또는 IDE(VS Code) 통합 디버거 사용법.
+- try...catch를 이용한 에러 핸들링.
+- 관련 아티팩트: async_debugging_guide
+
+이 체크리스트는 미션의 복잡성을 고려했을 때, 성공적인 구현과 테스트를 위해 필요한 핵심적인 개념들을 담고 있습니다. 각 항목을 이해하고 적용하려 노력한다면 미션 목표 달성에 큰 도움이 될 것입니다.
+
+### 느낀점
+
+> 확실히 ai가 짜주니까, 기초부터(내가 알고있는 것 까지) 설계해주는 것을 느꼈다. 그래서 더 0부터 100까지 차근차근 cs지식을 확실히 알 수 있을 것 같다.
 
 </div>
 </details>
