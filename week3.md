@@ -146,6 +146,11 @@ AI마다 어투나 표현이 조금씩 다른데, 개인에게 맞는 AI를 찾�
 - 광석 : ChatGPT + Perplexity
 - 주호 : chat gpt o4 mini high = 구현이나 수학문제 답 추론 도움, o3 아이디어를 융합할때
 
+<br>
+<br>
+<br>
+<br>
+
 ## Week3 퀘스트 수행 기록
 
 ### J188
@@ -176,6 +181,6 @@ AI마다 어투나 표현이 조금씩 다른데, 개인에게 맞는 AI를 찾�
 - Gemini: **직관적인 시각 정보와 수치 중심 예보**를 원하는 사용자
 
 ### 날씨 시각화
-<img width="1536" height="1024" alt="날씨 시각화 이미지" src="https://gist.github.com/user-attachments/assets/42f60b47-75b4-4f2f-ac60-a8a7d3b3be8a" />
+https://boostcampwm10-ch.slack.com/files/U095ZSLSG6L/F099FSKRNAZ/chatgpt_image_2025__________8__________8__________________________07_56_20.png
 
 </details>
