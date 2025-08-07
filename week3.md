@@ -181,7 +181,8 @@ AI마다 어투나 표현이 조금씩 다른데, 개인에게 맞는 AI를 찾�
 - Gemini: **직관적인 시각 정보와 수치 중심 예보**를 원하는 사용자
 
 ### 날씨 시각화
-<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/833bf2ef-27ab-4c39-8980-7f22c5f32358" />
+![Image](https://github.com/user-attachments/assets/193df8a4-f490-4eba-a6f5-391274a95e8b)
 
 </details>
+
 
