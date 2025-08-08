@@ -512,3 +512,56 @@ gpt가 뱉은 출력을 그대로 전달해 달리에게 날씨 정보를 시각
 
 
 
+
+### S041
+
+<details>
+<summary>퀘스트 1. AI 제공 날씨 정보 분석</summary>
+<div markdown="1">
+
+**프롬프트**
+
+```
+대한민국 인천의 오늘의 날씨에 대해 알려줘
+```
+
+<br>
+
+세가지 모두 같은 프롬프트를 사용하였다. 
+결과는 다음과 같다. 
+
+<br>
+
+#### 1. perplexity
+![SCR-20250808-jcgq](https://gist.github.com/user-attachments/assets/ed8ac672-9acf-4b75-b53d-7ee6930ea6c5)
+<br>
+
+<img width="776" height="468" alt="SCR-20250808-nynl" src="https://gist.github.com/user-attachments/assets/05681168-35be-431b-bf5c-18590360b1b0" />
+<br>
+
+#### 2. Chat GPT
+<img width="827" height="531" alt="SCR-20250808-jchq" src="https://gist.github.com/user-attachments/assets/ae138b24-5b6f-4be4-ac61-958da7393e04" />
+
+
+<br>
+
+#### 3. Gemini
+<img width="815" height="559" alt="SCR-20250808-jciw" src="https://gist.github.com/user-attachments/assets/159fedf2-b16c-4add-98a5-36eb0795352d" />
+
+<br>
+
+#### 가장 보기 편했던 AI
+가장 보기 편했던건 Gemini 였다. 가장 평범하게 가장 필요한 데이터를 효과적으로 보여줬다고 생각했다. 
+
+<br>
+
+GPT는 표로 간단하게 보여줘서 데이터가 다소 부족하다는 느낌을 받았다.
+
+<br>
+
+perplexity는 줄글과 함께 볼 수 있는 뷰를 제공했는데, 여기서 각 날짜를 누르면 배경이 바뀌는것도 재미있는 부분이었다. 하지만 그림 부분이 정보를 효과적으로 전달해주는 것 같지는 않아서 조금 아쉬웠다. 
+
+#### 결과
+모든 LLM 다 마찬가지로 줄글이나 표로 날씨 정보를 제공해줄줄 알았는데 대부분이 그림 형식으로 답변을 줘서 예상 밖의 결과였다. 질문하기전에는 시각화를 해달라는 내용을 질문에 포함해야 시각적으로 표, 그림으로 정보를 제공해줄거라고 생각했는데, 기본적으로 시각자료를 보여줘서, 정돈된 데이터로 볼 수 있었다. 
+
+</details>
