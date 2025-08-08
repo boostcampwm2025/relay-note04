@@ -519,6 +519,8 @@ gpt가 뱉은 출력을 그대로 전달해 달리에게 날씨 정보를 시각
 <summary>퀘스트 1. AI 제공 날씨 정보 분석</summary>
 <div markdown="1">
 
+<br>
+
 **프롬프트**
 
 ```
@@ -533,7 +535,7 @@ gpt가 뱉은 출력을 그대로 전달해 달리에게 날씨 정보를 시각
 <br>
 
 #### 1. perplexity
-![SCR-20250808-jcgq](https://gist.github.com/user-attachments/assets/ed8ac672-9acf-4b75-b53d-7ee6930ea6c5)
+![image](https://gist.github.com/user-attachments/assets/ed8ac672-9acf-4b75-b53d-7ee6930ea6c5)
 <br>
 
 <img width="776" height="468" alt="SCR-20250808-nynl" src="https://gist.github.com/user-attachments/assets/05681168-35be-431b-bf5c-18590360b1b0" />
